@@ -1,0 +1,175 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\48a42633534b4c19e9ed34e4e8f891f2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\95c6ee36b788909d64679667dd3634d0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b16229abf3550a45d158b751b788db22\AndroidManifest.xml:2:1-11:12
+MERGED from [:openCVLibrary331] D:\AndroidStudioProjects\RecognizeMultProj\openCVLibrary331\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a5827d4990185ca44ffc460836399958\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d5243fb0eaf1a5a2eefc211418488c5b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\fa9f79b9a72bed107c092babb3bcafdc\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\76a60b3322421b7fb0e0c27e90f0221b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dd1b5483bfaaab03adf7e2cc5b5a009b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8bbbda05050f6b9d0286f38344ed8e0e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\60be3fac54c76f303f2e975cea0e9875\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\22ba7604701a0d46f8e22a2758b6306b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\0b27e586c110ad81fd813a5f202619a6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2395d5f2b99c6535e28a4d4f5c098c43\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:6:5-64
+	android:name
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:6:22-62
+application
+ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:8:5-28:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\48a42633534b4c19e9ed34e4e8f891f2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\48a42633534b4c19e9ed34e4e8f891f2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\95c6ee36b788909d64679667dd3634d0\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\95c6ee36b788909d64679667dd3634d0\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b16229abf3550a45d158b751b788db22\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b16229abf3550a45d158b751b788db22\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a5827d4990185ca44ffc460836399958\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a5827d4990185ca44ffc460836399958\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d5243fb0eaf1a5a2eefc211418488c5b\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d5243fb0eaf1a5a2eefc211418488c5b\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\76a60b3322421b7fb0e0c27e90f0221b\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\76a60b3322421b7fb0e0c27e90f0221b\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dd1b5483bfaaab03adf7e2cc5b5a009b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dd1b5483bfaaab03adf7e2cc5b5a009b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8bbbda05050f6b9d0286f38344ed8e0e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8bbbda05050f6b9d0286f38344ed8e0e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\60be3fac54c76f303f2e975cea0e9875\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\60be3fac54c76f303f2e975cea0e9875\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\22ba7604701a0d46f8e22a2758b6306b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\22ba7604701a0d46f8e22a2758b6306b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\0b27e586c110ad81fd813a5f202619a6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\0b27e586c110ad81fd813a5f202619a6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2395d5f2b99c6535e28a4d4f5c098c43\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2395d5f2b99c6535e28a4d4f5c098c43\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.ilya.recognizemultproj.MainActivity
+ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:15:9-23:20
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:17:13-50
+	android:name
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:16:13-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.ilya.recognizemultproj.ServerActivity
+ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:24:9-27:20
+	android:name
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml:25:13-77
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\48a42633534b4c19e9ed34e4e8f891f2\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\48a42633534b4c19e9ed34e4e8f891f2\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\95c6ee36b788909d64679667dd3634d0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\95c6ee36b788909d64679667dd3634d0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b16229abf3550a45d158b751b788db22\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b16229abf3550a45d158b751b788db22\AndroidManifest.xml:5:5-7:41
+MERGED from [:openCVLibrary331] D:\AndroidStudioProjects\RecognizeMultProj\openCVLibrary331\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary331] D:\AndroidStudioProjects\RecognizeMultProj\openCVLibrary331\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a5827d4990185ca44ffc460836399958\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a5827d4990185ca44ffc460836399958\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d5243fb0eaf1a5a2eefc211418488c5b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d5243fb0eaf1a5a2eefc211418488c5b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\fa9f79b9a72bed107c092babb3bcafdc\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\fa9f79b9a72bed107c092babb3bcafdc\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\76a60b3322421b7fb0e0c27e90f0221b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\76a60b3322421b7fb0e0c27e90f0221b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dd1b5483bfaaab03adf7e2cc5b5a009b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dd1b5483bfaaab03adf7e2cc5b5a009b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8bbbda05050f6b9d0286f38344ed8e0e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8bbbda05050f6b9d0286f38344ed8e0e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\60be3fac54c76f303f2e975cea0e9875\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\60be3fac54c76f303f2e975cea0e9875\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\22ba7604701a0d46f8e22a2758b6306b\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\22ba7604701a0d46f8e22a2758b6306b\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\0b27e586c110ad81fd813a5f202619a6\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\0b27e586c110ad81fd813a5f202619a6\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2395d5f2b99c6535e28a4d4f5c098c43\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2395d5f2b99c6535e28a4d4f5c098c43\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\48a42633534b4c19e9ed34e4e8f891f2\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\48a42633534b4c19e9ed34e4e8f891f2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\95c6ee36b788909d64679667dd3634d0\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\95c6ee36b788909d64679667dd3634d0\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a5827d4990185ca44ffc460836399958\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a5827d4990185ca44ffc460836399958\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d5243fb0eaf1a5a2eefc211418488c5b\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d5243fb0eaf1a5a2eefc211418488c5b\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\fa9f79b9a72bed107c092babb3bcafdc\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\fa9f79b9a72bed107c092babb3bcafdc\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\76a60b3322421b7fb0e0c27e90f0221b\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\76a60b3322421b7fb0e0c27e90f0221b\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dd1b5483bfaaab03adf7e2cc5b5a009b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dd1b5483bfaaab03adf7e2cc5b5a009b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8bbbda05050f6b9d0286f38344ed8e0e\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8bbbda05050f6b9d0286f38344ed8e0e\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\60be3fac54c76f303f2e975cea0e9875\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\60be3fac54c76f303f2e975cea0e9875\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\22ba7604701a0d46f8e22a2758b6306b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\22ba7604701a0d46f8e22a2758b6306b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\0b27e586c110ad81fd813a5f202619a6\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\0b27e586c110ad81fd813a5f202619a6\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2395d5f2b99c6535e28a4d4f5c098c43\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2395d5f2b99c6535e28a4d4f5c098c43\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\48a42633534b4c19e9ed34e4e8f891f2\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ilya_\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\48a42633534b4c19e9ed34e4e8f891f2\AndroidManifest.xml:26:9-47

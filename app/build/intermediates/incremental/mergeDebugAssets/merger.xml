@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config=":openCVLibrary331"><source path="D:\AndroidStudioProjects\RecognizeMultProj\openCVLibrary331\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="D:\AndroidStudioProjects\RecognizeMultProj\app\src\main\assets"/><source path="D:\AndroidStudioProjects\RecognizeMultProj\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\AndroidStudioProjects\RecognizeMultProj\app\src\debug\assets"/></dataSet></merger>
