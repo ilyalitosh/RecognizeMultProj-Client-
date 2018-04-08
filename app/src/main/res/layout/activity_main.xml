@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#eeeeee"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+
+    tools:context="com.example.ilya.recognizemultproj.MainActivity">
+    <!--tools:openDrawer="start"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/prev_camera_space"
+            android:background="@drawable/modules_background"
+            android:layout_margin="2dp"
+            android:layout_weight="1">
+
+            <org.opencv.android.JavaCameraView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:id="@+id/cam_preview"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/left_side_vertical_frame"
+                    android:background="#ff0000"/>
+                <View
+                    android:layout_width="250dp"
+                    android:layout_height="2dp"
+                    android:id="@+id/up_side_horizontal_frame"
+                    android:layout_toRightOf="@id/left_side_vertical_frame"
+                    android:layout_toEndOf="@id/left_side_vertical_frame"
+                    android:background="#ff0000"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/right_side_vertical_frame"
+                    android:layout_toRightOf="@id/up_side_horizontal_frame"
+                    android:layout_toEndOf="@id/up_side_horizontal_frame"
+                    android:background="#ff0000"/>
+                <View
+                    android:layout_width="250dp"
+                    android:layout_height="2dp"
+                    android:id="@+id/down_side_horizontal_frame"
+                    android:layout_toRightOf="@id/left_side_vertical_frame"
+                    android:layout_toEndOf="@id/left_side_vertical_frame"
+                    android:layout_alignBottom="@id/left_side_vertical_frame"
+                    android:background="#ff0000"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:background="@drawable/modules_background"
+                android:id="@+id/change_width_height_space">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="44dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="ширина"/>
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seek_bar_change_red_frame_width"
+                    android:layout_centerVertical="true"/>
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/modules_background"
+                    android:id="@+id/response_space">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/output_response_from_server"
+                            android:hint="результат"
+                            android:text="-0.14"
+                            android:textColor="#ff0000"
+                            android:textSize="18sp"
+                            android:focusable="false"
+                            android:cursorVisible="false"
+                            android:longClickable="false">
+
+                        </EditText>
+                        <ProgressBar
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/progressbar_loading_response_from_server"
+                            android:visibility="invisible"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="5dp"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:id="@+id/button_send"
+                        android:background="@drawable/button_background"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:text="Распознать"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/modules_background"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/seek_bar_change_red_frame_height"
+                    android:rotation="90" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="270"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="высота"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        app:itemIconTint="@android:color/black"
+        android:layout_gravity="start" >
+
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecognizeMultProj</string>
+
+    <string name="activity_name_camera">Камера</string>
+    <string name="activity_name_server">Сервер</string>
+
+    <string name="navigation_bar_open">navigation_bar_open</string>
+    <string name="navigation_bar_close">navigation_bar_close</string>
+</resources>
