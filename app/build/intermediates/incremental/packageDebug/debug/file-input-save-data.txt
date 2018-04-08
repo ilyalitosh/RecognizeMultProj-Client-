@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Apr 08 18:27:07 MSK 2018
+#Sun Apr 08 22:00:37 MSK 2018
 7.path=classes.dex
 2.base=D\:\\AndroidStudioProjects\\RecognizeMultProj\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 5.set=NATIVE_RESOURCE
