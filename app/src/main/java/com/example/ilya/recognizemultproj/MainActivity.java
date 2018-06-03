@@ -47,7 +47,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements IActivity{
 
     private JavaCameraView camPreview;
     private Mat currentFrame;
@@ -96,7 +96,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void initComponents(){
+    @Override
+    public void initComponents(){
         camPreview = (JavaCameraView)findViewById(R.id.cam_preview);
 
         leftSideVerticalLine = findViewById(R.id.left_side_vertical_frame);
@@ -135,7 +136,8 @@ public class MainActivity extends AppCompatActivity {
         toggle.syncState();
     }
 
-    private void initListeners(){
+    @Override
+    public void initListeners(){
         camPreview.setCvCameraViewListener(new CameraBridgeViewBase.CvCameraViewListener2() {
             @Override
             public void onCameraViewStarted(int width, int height) {
@@ -292,21 +294,30 @@ public class MainActivity extends AppCompatActivity {
         return scaledMat;
     }
 
-    private void setBurgerButton(boolean value){
+    @Override
+    public void setBurgerButton(boolean value){
         getSupportActionBar().setDisplayHomeAsUpEnabled(value);
     }
 
-    private void setActionBarTitle(int resId) {
+    @Override
+    public void setActionBarTitle(int resId) {
         getSupportActionBar().setTitle(resId);
     }
 
-    private void startCameraActivity(){
+    @Override
+    public void setActionBarSubtitle(String value) {
+
+    }
+
+    @Override
+    public void startCameraActivity(){
         Intent intent = new Intent(MainActivity.this, MainActivity.class);
         startActivity(intent);
         finish();
     }
 
-    private void startServerActivity(){
+    @Override
+    public void startServerActivity(){
         Intent intent = new Intent(MainActivity.this, ServerActivity.class);
         startActivity(intent);
         finish();

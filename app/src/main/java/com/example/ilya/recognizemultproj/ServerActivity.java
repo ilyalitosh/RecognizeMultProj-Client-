@@ -21,7 +21,7 @@ import android.widget.Toast;
  * Created by ilya_ on 24.12.2017.
  */
 
-public class ServerActivity extends AppCompatActivity {
+public class ServerActivity extends AppCompatActivity implements IActivity {
 
     private EditText inputIpServer;
     private EditText inputPortServer;
@@ -49,7 +49,8 @@ public class ServerActivity extends AppCompatActivity {
 
     }
 
-    private void initComponents(){
+    @Override
+    public void initComponents(){
         inputIpServer = (EditText)findViewById(R.id.input_ip_server);
         inputPortServer = (EditText)findViewById(R.id.input_port_server);
         buttonConnectToServer = (Button)findViewById(R.id.button_connect_to_server);
@@ -77,7 +78,8 @@ public class ServerActivity extends AppCompatActivity {
         toggle.syncState();
     }
 
-    private void initListeners(){
+    @Override
+    public void initListeners(){
         buttonConnectToServer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -136,25 +138,30 @@ public class ServerActivity extends AppCompatActivity {
         });
     }
 
-    private void setBurgerButton(boolean value){
+    @Override
+    public void setBurgerButton(boolean value){
         getSupportActionBar().setDisplayHomeAsUpEnabled(value);
     }
 
-    private void setActionBarTitle(int resId){
+    @Override
+    public void setActionBarTitle(int resId){
         getSupportActionBar().setTitle(resId);
     }
 
-    private void setActionBarSubtitle(String value){
+    @Override
+    public void setActionBarSubtitle(String value){
         getSupportActionBar().setSubtitle(value);
     }
 
-    private void startCameraActivity(){
+    @Override
+    public void startCameraActivity(){
         Intent intent = new Intent(ServerActivity.this, MainActivity.class);
         startActivity(intent);
         finish();
     }
 
-    private void startServerActivity(){
+    @Override
+    public void startServerActivity(){
         Intent intent = new Intent(ServerActivity.this, ServerActivity.class);
         startActivity(intent);
         finish();

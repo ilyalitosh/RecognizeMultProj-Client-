@@ -18,7 +18,7 @@ import java.net.Socket;
  * Created by ilya_ on 01.11.2017.
  */
 
-public class CamClient {
+public class CamClient implements IClient{
 
     private static Socket socket;
     private static InputStream in;
@@ -48,6 +48,7 @@ public class CamClient {
         return camClient;
     }
 
+    @Override
     public void connectToServer(String ip, int port){
         try {
             socket = new Socket();
@@ -61,6 +62,7 @@ public class CamClient {
     }
 
     private boolean isConnectionAlive;
+    @Override
     public boolean isConnected(){
         Thread t = new Thread(new Runnable() {
             @Override
@@ -102,6 +104,7 @@ public class CamClient {
         }
     }
 
+    @Override
     public void getInput(EditText inputFromServer){
         try {
             while(dataIn.readLine() != null){
